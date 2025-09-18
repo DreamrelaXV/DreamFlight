@@ -1,0 +1,4 @@
+com\dreamrela\commands\FlyCommand.class
+com\dreamrela\DreamFlight.class
+com\dreamrela\utils\ConfigManager.class
+com\dreamrela\listeners\WorldChangeListener.class

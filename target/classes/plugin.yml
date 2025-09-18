@@ -1,0 +1,26 @@
+name: DreamFlight
+version: 1.0.1
+description: A simple flight plugin with world restrictions
+author: Dreamrela
+main: com.dreamrela.DreamFlight
+
+commands:
+  fly:
+    description: Toggle flight for yourself or another player
+    usage: /fly [player]
+    permission: dreamflight.fly
+    permission-message: "You don't have permission to use this command!"
+
+permissions:
+  dreamflight.fly:
+    description: Allows the player to toggle their own flight
+    default: op
+  dreamflight.others:
+    description: Allows the player to toggle flight for other players
+    default: op
+  dreamflight.*:
+    description: Gives access to all DreamFlight permissions
+    default: op
+    children:
+      dreamflight.fly: true
+      dreamflight.others: true

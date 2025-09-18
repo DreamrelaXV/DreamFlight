@@ -1,0 +1,13 @@
+# DreamFlight Configuration
+# Worlds where flight is allowed
+allowed-worlds:
+  - "world"
+  # Add more worlds as needed
+
+# Plugin settings
+settings:
+  # Whether to send messages when flight is toggled
+  send-messages: true
+  
+  # Whether to disable flight when players change worlds
+  disable-on-world-change: true
